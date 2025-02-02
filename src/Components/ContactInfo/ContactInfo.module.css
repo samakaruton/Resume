@@ -1,0 +1,44 @@
+.contactInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 1rem;
+    background: var(--background-light);
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .contactItem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem 1.2rem;
+    background: white;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    color: var(--text-primary);
+  }
+  
+  .contactItem:hover {
+    transform: translateX(5px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactItem svg {
+    color: var(--primary-color);
+    width: 20px;
+    height: 20px;
+  }
+  
+  .contactItem a {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .contactItem a:hover {
+    color: var(--primary-color);
+  }
+  
