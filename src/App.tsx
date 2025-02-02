@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Header from './Components/Header/Header';
-import Tabs, { TabType, tabOptions } from './Components/Tabs/Tabs';
+import Tabs, { TabType } from './Components/Tabs/Tabs';
 import Experience from './Components/Experience/Experience';
 import Education from './Components/Education/Education';
 import Acquired from './Components/Acquired-Skills/Acquired';
