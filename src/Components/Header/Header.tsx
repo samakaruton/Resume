@@ -1,7 +1,7 @@
 import styles from './Header.module.css';
 import ContactInfo from '../ContactInfo/ContactInfo';
 import { personalInfo } from '../../data/resumeData';
-import icon from '../../assets/resume.jpeg';
+import icon from '../../assets/resume2.jpg';
 
 const Header = () => (
   <header className={styles.header}>
